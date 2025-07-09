@@ -34,7 +34,7 @@ class JavGuru : MainAPI() {
 
         // Log.i(DEV, "Main body => $mainbody")
         // Fetch row title
-        val title = "Homepage "
+        val title = "Homepage"
         // Fetch list of items and map
         mainbody.select("div.row").let { inner ->
             val elements: List<SearchResponse> =
