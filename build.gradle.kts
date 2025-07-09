@@ -42,7 +42,7 @@ subprojects {
     }
 
     android {
-        namespace = "com.example"
+        namespace = "com.prive"
 
         defaultConfig {
             minSdk = 21
@@ -86,6 +86,6 @@ subprojects {
     }
 }
 
-task<Delete>("clean") {
+tasks.register<Delete>("clean", fun Delete.() {
     delete(rootProject.layout.buildDirectory)
-}
+})
