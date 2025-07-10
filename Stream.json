@@ -1,0 +1,8 @@
+{
+  "name": "CloudStream",
+  "description": "Provides XXX plugins",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/WinPriv/CloudStream/refs/heads/builds/plugins.json"
+  ]
+}
